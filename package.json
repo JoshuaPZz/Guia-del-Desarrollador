@@ -1,0 +1,20 @@
+{
+  "name": "guia-desarrollador",
+  "version": "1.0.0",
+  "description": "> **Un mapa de ruta técnico, riguroso y sin rodeos para aprender a programar, comprender los fundamentos de la computación, dominar herramientas profesionales, usar IA con criterio y construir una carrera sólida en la industria tecnológica.**",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "docs:dev": "vitepress dev",
+    "docs:build": "vitepress build",
+    "docs:preview": "vitepress preview"
+  },
+  "keywords": ["developer", "roadmap", "education", "software-engineering", "data-engineering", "data-science", "ai"],
+  "author": "Joshua PZ",
+  "license": "MIT",
+  "devDependencies": {
+    "vitepress": "^1.6.4"
+  }
+}
